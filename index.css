@@ -122,5 +122,61 @@
 
 .image {
     float: right;
-    margin-bottom: 10px;
+}
+
+@media (max-width: 375px) {
+    .index-body {
+        justify-content: unset;
+    }
+    .index-box {
+        width: 100%;
+        height: 100%;
+    }
+    .box-1 {
+        width: 89%;
+        margin-bottom: 0px;
+    }
+    .heading-1 {
+        font-size: 1.5rem;
+    }
+    .heading-2 {
+        font-size: 1.5rem;
+        margin-top: 0;
+    }
+    .box-2 {
+        position: relative;
+        width: 100%;
+        height: 900px;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .box-2-innerbox-1 {
+        width: 85%;
+        height: 170px;
+        position: relative;
+    }
+    .box-2-innerbox-2 {
+        position: relative;
+        height: 48.5%;
+    }
+    .box-2-middle-box {
+        width: 85%;
+        height: 370px;
+        justify-content: space-around;
+    }
+    .card-content {
+        margin-bottom: 5px;
+        margin-top: 5px;
+        font-size: 0.8rem;
+    }
+    .card-box {
+        padding: 10px 20px;
+    }
+    .card-heading {
+        margin-top: 0;
+    }
+    .image {
+        width: 54px;
+        height: 54px;
+    }
 }
